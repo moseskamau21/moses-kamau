@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Moses Kamau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Moses Kamau</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="capstone.html">Capstone</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero" style="padding: 4rem 0;">
+        <div class="container">
+            <h1 class="hero-title" style="font-size: 2.5rem;">Projects</h1>
+            <p class="hero-description">
+                Building mobile-first solutions for African markets
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Project: B-FIT -->
+    <section>
+        <div class="container">
+            <div class="content-section">
+                <h2>B-FIT GYM Manager</h2>
+                <p style="color: var(--primary-color); font-size: 1.2rem; font-weight: 600;">
+                    Final Year Capstone Project | Mobile-First Gym Management System
+                </p>
+                
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">The Problem</h3>
+                <p>
+                    In January 2023, I witnessed a payment dispute at my local gym in Nyeri. A member insisted 
+                    he'd paid his fees, but the manager's handwritten ledger showed no record. The argument lasted 
+                    half an hour, frustrating everyone. That moment crystallized the problem: gyms were relying on 
+                    paper records that could be lost, misread, or disputed. They needed a digital solution, but 
+                    existing international software was too expensive and not designed for Kenyan realities.
+                </p>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">The Solution</h3>
+                <p>
+                    B-FIT GYM Manager is a mobile-first web application specifically designed for Kenyan fitness 
+                    centers. It automates the tedious manual processes while respecting local constraints and 
+                    opportunities.
+                </p>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">Key Features</h3>
+                <div class="skills-grid" style="margin-top: 1rem;">
+                    <div class="skill-category">
+                        <h3>Member Management</h3>
+                        <ul>
+                            <li>Digital registration and profiles</li>
+                            <li>Subscription plan tracking</li>
+                            <li>Automated expiry notifications</li>
+                            <li>Member history and analytics</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>M-Pesa Integration</h3>
+                        <ul>
+                            <li>Direct mobile money payments</li>
+                            <li>Automatic payment recording</li>
+                            <li>Digital receipts via SMS</li>
+                            <li>Real-time transaction updates</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>QR Code Attendance</h3>
+                        <ul>
+                            <li>Fast check-in/check-out</li>
+                            <li>No expensive hardware needed</li>
+                            <li>Works on any smartphone</li>
+                            <li>Real-time attendance tracking</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Admin Dashboard</h3>
+                        <ul>
+                            <li>Business analytics and insights</li>
+                            <li>Revenue tracking and reports</li>
+                            <li>Member activity monitoring</li>
+                            <li>Inventory management</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Merchandise Shop</h3>
+                        <ul>
+                            <li>Product catalog management</li>
+                            <li>Sales tracking</li>
+                            <li>Inventory alerts</li>
+                            <li>Revenue integration</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Feedback System</h3>
+                        <ul>
+                            <li>Member ratings and reviews</li>
+                            <li>Service quality tracking</li>
+                            <li>Trainer evaluations</li>
+                            <li>Improvement insights</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">Technical Stack</h3>
+                <div class="tech-stack" style="margin-top: 1rem;">
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">JSON Storage</span>
+                    <span class="tech-tag">M-Pesa Daraja API</span>
+                    <span class="tech-tag">QR Code Generation</span>
+                    <span class="tech-tag">RESTful APIs</span>
+                    <span class="tech-tag">Responsive Design</span>
+                </div>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">Design Principles</h3>
+                <p>
+                    <strong>Mobile-First:</strong> Designed for smartphones because that's how Kenyans access technology. 
+                    The interface works perfectly on a 5-inch screen.
+                </p>
+                <p>
+                    <strong>Affordable:</strong> Uses QR codes instead of expensive biometric scanners. Uses JSON storage 
+                    instead of costly database servers. No subscription fees that small gyms can't afford.
+                </p>
+                <p>
+                    <strong>Offline-Friendly:</strong> Works with spotty internet connectivity. Data syncs when connection 
+                    returns. Essential for gyms outside major cities.
+                </p>
+                <p>
+                    <strong>Locally Integrated:</strong> M-Pesa is the primary payment method, not an afterthought. 
+                    Built for how Kenyans actually pay for services.
+                </p>
+                <p>
+                    <strong>Simple Interface:</strong> Designed for varying digital literacy levels. Clear labels, 
+                    intuitive navigation, minimal jargon.
+                </p>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">Development Journey</h3>
+                <p>
+                    Building B-FIT taught me more than any classroom lecture. I learned to balance technical 
+                    ambition with practical constraints. I learned that the best code isn't the cleverest - it's 
+                    the code that solves real problems for real people. I learned to listen to users and iterate 
+                    based on their feedback.
+                </p>
+                <p>
+                    The biggest technical challenge was integrating the M-Pesa Daraja API. Documentation was sparse, 
+                    testing required actual money transactions, and error messages were cryptic. But persistence 
+                    paid off. When the first successful payment went through and automatically updated the member's 
+                    subscription status, it felt incredible.
+                </p>
+
+                <h3 style="margin-top: 2rem; color: var(--text-dark);">Impact</h3>
+                <p>
+                    <strong>For Gym Managers:</strong> Reduced administrative workload, eliminated payment disputes, 
+                    gained real-time business insights, and improved revenue tracking.
+                </p>
+                <p>
+                    <strong>For Gym Staff:</strong> Streamlined check-in processes, easier merchandise management, 
+                    less time on paperwork, better member service.
+                </p>
+                <p>
+                    <strong>For Members:</strong> Transparent subscription tracking, convenient M-Pesa payments, 
+                    fast QR code check-ins, easy feedback submission.
+                </p>
+
+                <div style="margin-top: 2rem;">
+                    <a href="https://github.com/moseskamau21/bfit-gym-manager" target="_blank" class="btn btn-primary" style="margin-right: 1rem;">View on GitHub</a>
+                    <a href="capstone.html" class="btn btn-secondary">Complete Documentation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Projects -->
+    <section style="background-color: var(--light-bg);">
+        <div class="container">
+            <h2 class="section-title">Academic Projects</h2>
+            
+            <div class="deliverables-grid">
+                <div class="deliverable-card">
+                    <h3>Student Management System</h3>
+                    <p>Database-driven application for managing student records, built using SQL and normalization principles. 
+                    First experience with complex database design and relationships.</p>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-top: 1rem;">
+                        Technologies: SQL, Database Design
+                    </p>
+                </div>
+
+                <div class="deliverable-card">
+                    <h3>Church Donation Tracker</h3>
+                    <p>Group project building a system to track church donations and generate reports. Taught me 
+                    the importance of understanding user needs and iterating based on feedback.</p>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-top: 1rem;">
+                        Technologies: Web Development, User Research
+                    </p>
+                </div>
+
+                <div class="deliverable-card">
+                    <h3>Quiz Application</h3>
+                    <p>First mobile app built using Android Studio and Java. Simple quiz app that taught me 
+                    the importance of mobile UI/UX design for non-technical users.</p>
+                    <p style="color: var(--primary-color); font-weight: 600; margin-top: 1rem;">
+                        Technologies: Android Studio, Java
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Moses Kamau. Built with dedication for African innovation.</p>
+            <div class="social-links">
+                <a href="https://github.com/moseskamau21" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/moses-kamau-b08b463ab" target="_blank">LinkedIn</a>
+                <a href="mailto:moses.kamau21@students.dkut.ac.ke">Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
